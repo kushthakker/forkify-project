@@ -13,7 +13,7 @@ export const bookmark = async function (e, main) {
     bookmarkArea.classList.add("bookmarkArea");
     element.appendChild(bookmarkArea);
     if (bookmarks.bookmarks.length === 0) {
-      element.innerHTML = `<div class="noBookmarks">There are no bookmark saved here :(. </br> Pls try saving it from search section or add a new recipe</div>`;
+      element.innerHTML = `<div class="noBookmarks">There are no bookmark saved here :(. </br> Pls. try saving it from search section or add a new recipe</div>`;
     }
     if (bookmarks.bookmarks.length > 0) {
       bookmarks.bookmarks.forEach(async (bookmark) => {
