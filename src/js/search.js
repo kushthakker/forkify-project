@@ -450,6 +450,7 @@ export const search = function (e, main) {
     document.querySelector(".modal-search").classList.add("hidden");
     document.querySelector(".modal-bookmark").classList.remove("hidden");
     document.querySelector(".modal-addRecipe").classList.remove("hidden");
+    console.log(`hola new branch`);
   } catch (err) {
     alert(err.message);
   }
