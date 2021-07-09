@@ -725,7 +725,7 @@ html {
 }
 
 .bookmark {
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .modal-bookmark:hover,
