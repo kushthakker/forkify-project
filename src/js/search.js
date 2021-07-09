@@ -455,10 +455,6 @@ export const search = function (e, main) {
   }
 };
 
-if (module.hot) {
-  module.hot.accept();
-}
-
 // #TODO: search icon at bottom that take us back on top using intersection api. ✅
 // #TODO: add next page icon at bottom. new page will fetch next 15 elements from api.✅
 // #TODO: on clicking on recipe a big modal will open with all the details inside it ✅
