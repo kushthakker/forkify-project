@@ -30,7 +30,8 @@ const open = function (e) {
       }
       if (element === "1-b") {
         main.style.gridTemplateColumns = "1fr  6fr 1fr";
-
+        if (document.querySelector(".search-icon"))
+          document.querySelector(".search-icon").style.display = "block";
         document.querySelector(".add-recipe").innerHTML = "";
         document.querySelector(".bookmark").innerHTML = "";
         document.querySelector(".modal-search").classList.add("hidden");
@@ -39,10 +40,13 @@ const open = function (e) {
       }
       if (element === "2-b") {
         main.style.gridTemplateColumns = "1fr 2fr 5fr";
+
         document.querySelector(".bookmark").innerHTML = "";
         document.querySelector(".modal-search").classList.remove("hidden");
         document.querySelector(".modal-bookmark").classList.remove("hidden");
         document.querySelector(".modal-addRecipe").classList.add("hidden");
+        if (document.querySelector(".search-icon"))
+          document.querySelector(".search-icon").style.display = "none";
         addRecipe(e, main);
       }
     }
