@@ -169,7 +169,7 @@ export const modal = async function (e, place = "quick-view") {
         <p>This recipe was carefully designed and tested by ${
           recipeAdd.publisher
         }. Please check out directions at their website. </p>
-        <button class="button">
+        <button class="button btn-directions">
             <span class="inner-btn">Directions</span>
             <div class="button__horizontal"></div>
             <div class="button__vertical"></div>

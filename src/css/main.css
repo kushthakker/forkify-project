@@ -225,7 +225,7 @@ html {
   width: 48px;
   position: fixed;
   bottom: 4rem;
-  right: 21rem;
+  right: 22.5rem;
   z-index: 20;
   opacity: 0;
   transform: translateY(100px);
@@ -454,6 +454,10 @@ html {
   border-radius: 0;
   box-shadow: inset 0 0 0 var(--border-size) currentcolor;
   transition: background 0.8s ease;
+}
+
+.btn-directions {
+  margin-bottom: 3rem;
 }
 
 .btn {
