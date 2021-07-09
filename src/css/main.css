@@ -456,6 +456,10 @@ html {
   transition: background 0.8s ease;
 }
 
+.btn-directions {
+  margin-bottom: 3rem;
+}
+
 .btn {
   color: var(--color-dark--1);
   grid-area: button;
